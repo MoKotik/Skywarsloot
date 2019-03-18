@@ -3,11 +3,13 @@ middle_loot = [
         name = "minecraft:bow"
         count = "1"
         no_spawn = true
-        group = {
+        group = 
+        {
             name = "Bow"
-            depends = summ
+            depends = "summ"
         }
-        enchants = [
+        enchants = 
+        [
             {
                 name = "minecraft:power"
                 level = "2:3"
@@ -74,7 +76,7 @@ middle_loot = [
         count = "8:16"
         group = {
             name = "Bow"
-            depends = summ
+            depends = "summ"
         }
         no_spawn = true
     },
@@ -125,7 +127,7 @@ island_loot = [
         no_spawn = true
         group = {
             name = "Bow"
-            depends = summ
+            depends = "summ"
         }
         enchants = [
             {
@@ -179,7 +181,7 @@ island_loot = [
         count = "8:32"
         group = {
             name = "Bow"
-            depends = summ
+            depends = "summ"
         }
         no_spawn = true
     },
