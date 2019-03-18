@@ -1,0 +1,231 @@
+middle_loot = [
+    {
+        name = "minecraft:bow"
+        count = "1"
+        no_spawn = true
+        group = {
+            name = "Bow"
+            depends = summ
+        }
+        enchants = [
+            {
+                name = "minecraft:power"
+                level = "2:3"
+            }
+        ]
+    },    {
+        name = "minecraft:bow"
+        count = "1"
+        no_spawn = true
+        enchants = [
+            {
+                name = "minecraft:punch"
+                level = "1:2"
+            }
+        ]
+    },
+    {
+        name = "minecraft:sandstone"
+        count = "16:32"
+    },
+    {
+        name = "minecraft:wood_sword"
+        no_spawn = true
+        enchants = [
+            {
+                name = "minecraft:knockback"
+            }
+        ]
+    },
+    {
+        name = "minecraft:baked_potato"
+        count = "8:16"
+    },
+    {
+        name = "minecraft:golden_apple"
+        count = "1:3"
+        no_spawn = true
+    },
+    {
+        name = "minecraft:planks"
+        count = "16:32"
+    },
+    {
+        name = "minecraft:diamond_helmet"
+        no_spawn = false
+    },
+    {
+        name = "minecraft:diamond_chestplate"
+        no_spawn = true
+    },
+    {
+        name = "minecraft:diamond_leggings"
+    },
+    {
+        name = "minecraft:diamond_boots"
+        no_spawn = false
+    },
+    {
+        name = "minecraft:iron_pickaxe"
+        no_spawn = false
+    },
+    {
+        name = "minecraft:arrow"
+        count = "8:16"
+        group = {
+            name = "Bow"
+            depends = summ
+        }
+        no_spawn = true
+    },
+    {
+        name = "minecraft:diamond_sword"
+        no_spawn = true
+        enchants = [
+            {
+                name = "minecraft:sharpness"
+                level = "1"
+            }
+        ]
+    },
+    {
+        name = "minecraft:iron_sword"
+        no_spawn = true
+    },
+    {
+        name = "minecraft:egg"
+        count = "8:16"
+        no_spawn = true
+    },
+    {
+        name = "minecraft:snowball"
+        count = "8:16"
+    },
+    {
+        name = "minecraft:iron_axe"
+    },
+    {
+        name = "minecraft:water_bucket"
+        no_spawn = true
+    },
+    {
+        name = "minecraft:lava_bucket"
+        no_spawn = true
+    },
+    {
+        name = "minecraft:fishing_rod"
+        no_spawn = true
+    }
+]
+
+island_loot = [
+    {
+        name = "minecraft:bow"
+        count = "1"
+        no_spawn = true
+        group = {
+            name = "Bow"
+            depends = summ
+        }
+        enchants = [
+            {
+                name = "minecraft:power"
+                level = "1"
+            }
+        ]
+    },
+    {
+        name = "minecraft:sandstone"
+        count = "16:32"
+        no_spawn = false
+    },
+    {
+        name = "minecraft:wood_sword"
+        no_spawn = true
+        enchants = [
+            {
+                name = "minecraft:knockback"
+            }
+        ]
+    },
+    {
+        name = "minecraft:baked_potato"
+        count = "6:12"
+        no_spawn = false
+    },
+    {
+        name = "minecraft:planks"
+        count = "16:32"
+        no_spawn = true
+    },
+    {
+        name = "minecraft:iron_helmet"
+    },
+    {
+        name = "minecraft:iron_chestplate"
+        no_spawn = true
+    },
+    {
+        name = "minecraft:iron_leggings"
+    },
+    {
+        name = "minecraft:iron_boots"
+    },
+    {
+        name = "minecraft:iron_pickaxe"
+    },
+    {
+        name = "minecraft:arrow"
+        count = "8:32"
+        group = {
+            name = "Bow"
+            depends = summ
+        }
+        no_spawn = true
+    },
+    {
+        name = "minecraft:stone_sword"
+        enchants = [
+            {
+                name = "minecraft:sharpness"
+                level = "0:2"
+            }
+        ]
+    },
+    {
+        name = "minecraft:iron_sword"
+        no_spawn = true
+    },
+    {
+        name = "minecraft:egg"
+        count = "8:16"
+        no_spawn = true
+    },
+    {
+        name = "minecraft:snowball"
+        count = "8:16"
+    },
+    {
+        name = "minecraft:iron_axe"
+    },
+    {
+        name = "minecraft:egg"
+        no_spawn = true
+    },
+    {
+        name = "minecraft:water_bucket"
+        no_spawn = true
+    },
+    {
+        name = "minecraft:lava_bucket"
+        no_spawn = true
+    },
+    {
+        name = "minecraft:fishing_rod"
+        no_spawn = true
+    },
+    {
+        name = "minecraft:stone_axe"
+        no_spawn = true
+    }
+]
