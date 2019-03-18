@@ -14,10 +14,16 @@ middle_loot = [
                 level = "2:3"
             }
         ]
-    },    {
+    },  
+    {
         name = "minecraft:bow"
         count = "1"
         no_spawn = true
+        group = 
+        {
+            name = "Bow"
+            depends = "summ"
+        }
         enchants = [
             {
                 name = "minecraft:punch"
