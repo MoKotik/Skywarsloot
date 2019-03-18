@@ -8,8 +8,7 @@ middle_loot = [
             name = "Bow"
             depends = "summ"
         }
-        enchants = 
-        [
+        enchants = [
             {
                 name = "minecraft:power"
                 level = "2:3"
