@@ -21,7 +21,7 @@ middle_loot = [
         no_spawn = true
         group = 
         {
-            name = "Bow"
+            name = "Bow1"
             depends = "summ"
         }
         enchants = [
@@ -75,6 +75,15 @@ middle_loot = [
     {
         name = "minecraft:iron_pickaxe"
         no_spawn = false
+    },
+    {
+        name = "minecraft:arrow"
+        count = "8:16"
+        group = {
+            name = "Bow1"
+            depends = "summ"
+        }
+        no_spawn = true
     },
     {
         name = "minecraft:arrow"
